@@ -1,0 +1,52 @@
+{
+  "name": "<%= libraryName %>",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=22.14.0 < 23.0.0"
+  },
+  "scripts": {
+    "build": "heft test --clean --production && heft package-solution --production",
+    "start": "heft start --clean",
+    "clean": "heft clean",
+    "eject-webpack": "heft eject-webpack",
+    "_phase:build": "heft run --only build -- --clean",
+    "_phase:test": "heft run --only test -- --clean",
+    "_phase:package-solution": "heft run --only package-solution -- --clean"
+  },
+  "dependencies": {
+    "@nexus/shared": "workspace:*",
+    "@microsoft/sp-component-base": "catalog:",
+    "@microsoft/sp-core-library": "catalog:",
+    "@microsoft/sp-lodash-subset": "catalog:",
+    "@microsoft/sp-office-ui-fabric-core": "catalog:",
+    "@microsoft/sp-property-pane": "catalog:",
+    "@microsoft/sp-webpart-base": "catalog:",
+    "@pnp/core": "catalog:",
+    "@pnp/graph": "catalog:",
+    "@pnp/queryable": "catalog:",
+    "@pnp/sp": "catalog:",
+    "@nubilum/nubilumcomponents": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/eslint-config-spfx": "catalog:",
+    "@microsoft/eslint-plugin-spfx": "catalog:",
+    "@microsoft/sp-module-interfaces": "catalog:",
+    "@microsoft/spfx-web-build-rig": "catalog:",
+    "@rushstack/eslint-config": "4.6.4",
+    "@rushstack/heft": "^1.2.9",
+    "@types/heft-jest": "^1.0.6",
+    "@types/jest": "30.0.0",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@types/webpack-env": "~1.15.2",
+    "@typescript-eslint/parser": "8.48.1",
+    "eslint": "8.57.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "typescript": "catalog:"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "extends": "./node_modules/@microsoft/spfx-web-build-rig/profiles/default/tsconfig-base.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "inlineSources": false,
+    "noImplicitAny": true,
+
+    "lib": ["dom", "dom.iterable", "ES2022"],
+    "rootDirs": [
+      "src",
+      "temp/loc-ts",
+      "temp/sass-ts",
+      "temp/static-asset-ts"
+    ],
+
+    "baseUrl": ".",
+    "paths": {
+      "@hooks/*": [
+        "src/shared/hooks/*"
+      ],
+      "@functions/*": [
+        "src/shared/functions/*"
+      ],
+      "@components/*": [
+        "src/shared/components/*"
+      ],
+      "@types/*": [
+        "src/shared/types/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": ["shared", "projects"]
+}

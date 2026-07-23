@@ -1,0 +1,7 @@
+{
+  "name": "new-project",
+  "category": "webpart",
+  "description": "A React-based web part template for SPFx",
+  "version": "0.0.1",
+  "spfxVersion": "1.23.0"
+}

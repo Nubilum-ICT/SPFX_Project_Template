@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Nexus Apps - <%= libraryName %>",
+    "id": "<%= solutionId %>",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Nubilum ICT s.r.o.",
+      "websiteUrl": "https://nexusapps.eu/",
+      "privacyUrl": "https://nexusapps.eu/privacy-policy/",
+      "termsOfUseUrl": "https://nexusapps.eu/terms-of-use/",
+      "mpnId": "6885484"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "<%= componentDescription %>"
+      },
+      "longDescription": {
+        "default": "<%= componentDescription %>"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "<%= libraryName %> Feature",
+        "description": "The feature that activates elements of the <%= libraryName %> solution.",
+        "id": "<%= featureId %>",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/NexusApps<%= libraryName %>.sppkg"
+  }
+}

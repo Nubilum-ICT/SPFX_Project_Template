@@ -1,0 +1,7 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/spfx-build/webpack-patch.schema.json",
+  "patchFiles": [
+    "./config/webpack-patch/react-webpack-patch.js",
+    "./config/webpack-patch/shared-webpack-patch.js"
+  ]
+}
