@@ -15,7 +15,7 @@
     "_phase:package-solution": "heft run --only package-solution -- --clean"
   },
   "dependencies": {
-    "@nexus/shared": "workspace:*",
+    "@monorepo/shared": "workspace:*",
     "@microsoft/sp-component-base": "catalog:",
     "@microsoft/sp-core-library": "catalog:",
     "@microsoft/sp-lodash-subset": "catalog:",
