@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "Nexus Apps - <%= libraryName %>",
+    "name": "Nubilum - <%= libraryName %>",
     "id": "<%= solutionId %>",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
@@ -9,9 +9,9 @@
     "isDomainIsolated": false,
     "developer": {
       "name": "Nubilum ICT s.r.o.",
-      "websiteUrl": "https://nexusapps.eu/",
-      "privacyUrl": "https://nexusapps.eu/privacy-policy/",
-      "termsOfUseUrl": "https://nexusapps.eu/terms-of-use/",
+      "websiteUrl": "https://www.nubilum-ict.cz/",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
       "mpnId": "6885484"
     },
     "metadata": {
@@ -35,6 +35,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/NexusApps<%= libraryName %>.sppkg"
+    "zippedPackage": "solution/Nubilum<%= libraryName %>.sppkg"
   }
 }
