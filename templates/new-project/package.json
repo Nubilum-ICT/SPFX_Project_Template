@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "@monorepo/shared": "workspace:*",
+    "@mui/material": "catalog:",
+    "@emotion/react": "catalog:",
+    "@emotion/styled": "catalog:",
     "@microsoft/sp-component-base": "catalog:",
     "@microsoft/sp-core-library": "catalog:",
     "@microsoft/sp-lodash-subset": "catalog:",
