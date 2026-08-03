@@ -12,7 +12,7 @@ function modifyWebpackConfig(webpackConfig) {
         "@hooks": path.resolve(repoRoot, "lib/shared/hooks"),
         "@functions": path.resolve(repoRoot, "lib/shared/functions"),
         "@components": path.resolve(repoRoot, "lib/shared/components"),
-        "@types": path.resolve(repoRoot, "lib/shared/types"),
+        "@interfaces": path.resolve(repoRoot, "lib/shared/interfaces"),
     };
 }
 
