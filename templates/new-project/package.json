@@ -17,6 +17,7 @@
   "dependencies": {
     "@monorepo/shared": "workspace:*",
     "@mui/material": "catalog:",
+    "@mui/x-data-grid-premium": "catalog:",
     "@emotion/react": "catalog:",
     "@emotion/styled": "catalog:",
     "@microsoft/sp-component-base": "catalog:",
